@@ -11,3 +11,5 @@
 4. Assignment 4 (HomePage) -> [Live Demo](https://modest-shirley-733d8b.netlify.app/)
 
 5. Assignment 5 (Portfolio) -> [Live Demo](https://vigilant-goldwasser-fb7053.netlify.app/)
+
+6. Assignment 6 (Todo App) -> [Live Demo](https://jolly-lumiere-508eb4.netlify.app/)
