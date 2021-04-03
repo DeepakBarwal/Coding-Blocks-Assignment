@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-city">
+        <input
+          type="text"
+          class="search-term"
+          autofocus
+          autocomplete="off"
+          placeholder="Search for a city"
+        />
+      </div>
+
+      <div class="err">Please enter a valid city name</div>
+
+      <div class="card">
+        <div class="city">
+          <div class="name">New Delhi, IN</div>
+          <div class="date">Friday, 2 April 2021</div>
+        </div>
+
+        <div class="temperature">
+          <div class="celcius">16<span>°c</span></div>
+          <div class="description">
+            Sunny <br />
+            <span class="feels">Feels like 12°c</span>
+          </div>
+          <div class="icon"><img src="" alt="" /></div>
+          <div class="min-max">13°c / 16°c</div>
+          <div class="others">
+            <div class="wind">Wind 2.12 m/s</div>
+            <div class="humidity">Humidity 80 %</div>
+            <div class="pressure">Pressure 1100 hPa</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
