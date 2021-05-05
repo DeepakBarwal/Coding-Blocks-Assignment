@@ -1,0 +1,114 @@
+body {
+  background: #00416a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e4e5e6,
+    #00416a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e4e5e6,
+    #00416a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+
+.fa-blogger {
+  font-size: 1.5rem;
+}
+
+.container .row {
+  width: 100%;
+}
+
+.my-heading {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(52, 9, 121, 1) 0%,
+    rgba(16, 144, 71, 1) 0%,
+    rgba(0, 56, 255, 1) 0%,
+    rgba(0, 228, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: black;
+  width: 60vw;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.blog:first-child {
+  width: 100%;
+}
+
+.card img {
+  border-radius: 20px;
+  padding: 15px;
+  height: 50%;
+  transition: all 0.3s ease;
+}
+
+.card img:hover {
+  padding: 0px;
+  border-radius: 20px;
+}
+
+nav {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 63, 253, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.new-form {
+  margin-top: 3rem;
+  width: 80vw;
+}
+
+.new-form form {
+  max-width: 70%;
+  margin: 10px auto;
+}
+
+.comment-div {
+  margin-top: 5rem;
+}
+
+.comments:first-child {
+  margin-top: 6rem;
+}
+
+textarea {
+  outline: none;
+}
+
+.footer {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 63, 253, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 16px;
+}
+
+.footer-content {
+  color: #fff !important;
+  font-size: 1.2rem;
+}

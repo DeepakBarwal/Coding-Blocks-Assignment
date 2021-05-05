@@ -1,0 +1,25 @@
+<%-include('../partials/header')%> <%-include('../partials/navbar')%>
+
+<div class="container">
+  <%- include('../partials/flash')%>
+  <h3 class="display-3 text-center mt-3 my-heading">All Blogs</h3>
+  <div class="row">
+    <%for(blog of blogs){ %>
+    <div class="col-md-6 mt-3 mb-3 text-center blog">
+      <div class="card" style="width: 100%">
+        <img src="<%=blog.img%>" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title"><%=blog.title%></h3>
+          <footer class="mt-1 p-1 blockquote-footer">
+            Author: <cite title="Source Title"><%=blog.author%></cite>
+          </footer>
+          <p class="card-text"><%=blog.text.substring(0,90)%>...</p>
+          <a href="/blogs/<%=blog._id%>" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <%}%>
+  </div>
+</div>
+
+<%-include('../partials/footer')%>

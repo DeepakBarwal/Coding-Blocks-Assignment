@@ -1,0 +1,38 @@
+<%- include('../partials/header')%> 
+<%- include('../partials/navbar')%>
+
+<div class="container new-form">
+    <form action='/blogs/<%=blog._id%>?_method=PATCH' method="POST" class="isValidated" novalidate>
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input type="text" class="form-control" id="title" name="blog[title]" value="<%=blog.title%>" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="img" class="form-label">Image URL</label>
+          <input type="text" class="form-control" id="img" name="blog[img]" value="<%=blog.img%>" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="author" class="form-label">Author</label>
+          <input type="text" class="form-control" id="author" name="blog[author]" value="<%=blog.author%>" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="text" class="form-label">Blog Post</label>
+          <textarea id="text" cols="30" rows="5" class="form-control" name="blog[text]" required><%=blog.text%></textarea>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success">Submit Blog Post</button>
+      </form>
+</div>
+
+<%- include('../partials/footer')%>
